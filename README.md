@@ -8,4 +8,4 @@ docker image build -t your_image_name https://github.com/JohnFu11er/docker_build
 
 after building it can be run with:
 
-docker container run -it --name your_container_name your_image_name
+docker container run -it your_image_name
