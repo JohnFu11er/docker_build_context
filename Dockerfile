@@ -4,6 +4,7 @@ LABEL maintainer='john.adrift@gmail.com'
 
 COPY ./car_report.py .
 
+RUN yum update -y
 RUN pip install requests
 
 ENTRYPOINT [ "python", "car_report.py" ]
