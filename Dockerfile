@@ -2,6 +2,6 @@ FROM centos/python-36-centos7
 
 LABEL maintainer='john.adrift@gmail.com'
 
-COPY ./greetings.py .
+COPY ./car_report.py .
 
-ENTRYPOINT [ "python", "greetings.py" ]
+ENTRYPOINT [ "python", "car_report.py" ]
