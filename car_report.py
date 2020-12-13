@@ -1,6 +1,8 @@
 import json
 import requests
+import os
 
+os.system("clear")
 inventory = requests.get("https://raw.githubusercontent.com/JohnFu11er/dec_13_morning/main/inventory.json").json()["inventory"]
 
 
